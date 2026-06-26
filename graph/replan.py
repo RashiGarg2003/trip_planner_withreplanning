@@ -24,7 +24,7 @@ def detect_changed_fields(prev_state: dict, new_state: dict) -> Set[str]:
             new_val = new_val.strip().lower()
  
         if old_val != new_val:
-            # ✅ FIX: allow 0 / empty values
+           
             if new_val is not None:
                 changed.add(field)
  

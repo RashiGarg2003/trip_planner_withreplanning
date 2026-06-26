@@ -44,3 +44,7 @@ class TripState(TypedDict, total=False):
     _prev_trip_days: int
     _prev_trip_budget: float
     _prev_trip_style: str
+
+    # Hotel outputs
+    hotel_info: str
+    hotel_options: list
